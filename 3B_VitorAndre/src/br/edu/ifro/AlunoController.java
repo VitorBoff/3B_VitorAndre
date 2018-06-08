@@ -49,7 +49,7 @@ public class AlunoController implements Initializable {
         
         em.getTransaction().commit();
     }
-
+//salvar no banco de dados
     @FXML
     private void fechar(ActionEvent event) {
         Stage stage = (Stage) txtNome.getScene().getWindow();
